@@ -1,6 +1,6 @@
 # **Fanbold**
 
-![Fanbold app demo](public/thumbnail.png)
+![Fanbold app demo](/public/thumbnail.png)
 
 A simple, fast, and customizable tool for generating follower-count graphics without needing design software.
 Users enter their follower numbers, choose a template, adjust styling, and download a high-quality graphic — all from a single, intuitive interface.
