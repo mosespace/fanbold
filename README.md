@@ -1,11 +1,9 @@
 # **Fanbold**
 
+![Fanbold app demo](/public/thumbnail.png)
+
 A simple, fast, and customizable tool for generating follower-count graphics without needing design software.
 Users enter their follower numbers, choose a template, adjust styling, and download a high-quality graphic — all from a single, intuitive interface.
-
-<p align="center">
-  <img src="(https://fanbold.vercel.app/thumbnail.png)" width="720" />
-</p>
 
 ---
 
@@ -38,17 +36,18 @@ Everything updates instantly — no multi-step wizard, no navigation between scr
 ## 📂 **Project Structure**
 
 ```
-src/
-  components/
-    › Sidebar (controls)
-    › Canvas (render area)
-    › Templates/
-      - CorporateTemplate
-      - ViralPopTemplate
-      - InfluencerTemplate
-  hooks/
-  utils/
-  pages/ or app/
+app/
+   globals.css
+   layout.tsx
+   page.tsx
+components/
+   _layout/
+   _templates/
+  ui/
+lib/
+   css_generators/
+public/
+types/
 ```
 
 The UI is split into two main areas:
@@ -137,16 +136,11 @@ pnpm start
 
 Contributions are welcome!
 Feel free to open issues, suggest features, or submit pull requests.
+Please see the dedicated guidelines for making a submission.
 
-Before contributing:
+Read our CONTRIBUTING.md for details on our workflow, branch naming, and code standards.
 
-1. Fork the repository
-2. Create a feature branch
-3. Follow the existing code style + TypeScript conventions
-4. Test your changes
-5. Open a PR with a clear description
-
----
+## Check the Issue Tracker for open bugs and feature requests.
 
 ## 📄 **License**
 
@@ -160,11 +154,3 @@ If you find this project useful, consider giving it a star!
 It helps others discover it and supports continued development.
 
 ---
-
-If you want, I can also provide:
-
-🔹 A polished project logo
-🔹 Placeholder screenshots
-🔹 A contribution guide (`CONTRIBUTING.md`)
-🔹 A template for issues & PRs
-Just tell me!
