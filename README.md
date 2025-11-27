@@ -1,11 +1,11 @@
 # **Fanbold**
 
+(public/thumbnail.png)
+
 A simple, fast, and customizable tool for generating follower-count graphics without needing design software.
 Users enter their follower numbers, choose a template, adjust styling, and download a high-quality graphic — all from a single, intuitive interface.
 
-<p align="center">
-  <img src="(https://fanbold.vercel.app/thumbnail.png)" width="720" />
-</p>
+
 
 ---
 
@@ -138,12 +138,11 @@ pnpm start
 
 Contributions are welcome!
 Feel free to open issues, suggest features, or submit pull requests.
- Please see the dedicated guidelines for making a submission.
+Please see the dedicated guidelines for making a submission.
 
 Read our CONTRIBUTING.md for details on our workflow, branch naming, and code standards.
 
-Check the Issue Tracker for open bugs and feature requests.
----
+## Check the Issue Tracker for open bugs and feature requests.
 
 ## 📄 **License**
 
@@ -157,4 +156,3 @@ If you find this project useful, consider giving it a star!
 It helps others discover it and supports continued development.
 
 ---
-
